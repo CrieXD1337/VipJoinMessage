@@ -1,0 +1,8 @@
+name: VipJoinMessages
+version: 1.0
+api: ["1.0.9", "1.1.0"]
+author: Criex
+main: ru.rexlite.VipJoinMsg
+softdepend:
+  - Multipass
+  - LuckPerms
