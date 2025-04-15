@@ -1,0 +1,7 @@
+# Available providers: LuckPerms, Multipass
+provider: LuckPerms
+
+# Groups of your provider
+groups:
+  Ultimate: "&7(&9ULTIMATE&7) &3{player} &bjoined the game"
+  Premium: "&7(&dPREMIUM&7) &3{player} &bjoined the game"
