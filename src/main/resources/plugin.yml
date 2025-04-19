@@ -1,5 +1,5 @@
 name: VipJoinMessages
-version: 1.0
+version: ${pom.version}
 api: ["1.0.9", "1.1.0"]
 author: Criex
 main: ru.rexlite.VipJoinMsg
