@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.rexlite</groupId>
-    <artifactId>VipJoinMsg</artifactId>
-    <version>1.0</version>
+    <artifactId>VipJoinMSG</artifactId>
+    <version>0.1.3</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -41,10 +41,17 @@
             <groupId>net.luckperms</groupId>
             <artifactId>api</artifactId>
             <version>5.4</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
